@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+	
+		<guthabenprices name="wbb.guthaben.prices.equizplay">
+			<description>wbb.guthaben.prices.equizplay.desc</description>
+			<price>EQUIZ_GUTHABEN_PLAY</price>
+			<isnegative>1</isnegative>
+		</guthabenprices>
+		
+		<guthabenprices name="wbb.guthaben.prices.equizwin">
+			<description>wbb.guthaben.prices.equizwin.desc</description>
+			<price>EQUIZ_GUTHABEN_WIN</price>
+		</guthabenprices>
+		
+		<guthabenprices name="wbb.guthaben.prices.equizcreate">
+			<description>wbb.guthaben.prices.equizcreate.desc</description>
+			<price>EQUIZ_GUTHABEN_CREATE</price>
+		</guthabenprices>
+
+	</import>
+</data>

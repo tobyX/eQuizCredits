@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>
+	<import>
+
+		<options>
+			<!-- spend -->
+			<option name="equiz_guthaben_play">
+				<categoryname>guthaben.spend</categoryname>
+				<optiontype>float</optiontype>
+				<defaultvalue>50</defaultvalue>
+			</option>
+			<!-- spend -->
+
+			<!-- earn -->
+			<option name="equiz_guthaben_win">
+				<categoryname>guthaben.earn</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>100</defaultvalue>
+			</option>
+			<option name="equiz_guthaben_create">
+				<categoryname>guthaben.earn</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>150</defaultvalue>
+			</option>
+			<!-- earn -->
+		</options>
+	</import>
+</data>

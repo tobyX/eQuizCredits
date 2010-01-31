@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+<package name="com.toby.wbb.equiz-guthaben">
+
+	<packageInformation>
+		<packageName>eQuiz Guthabenkopplung</packageName>
+		<packageDescription>Guthabenaddon für eQuiz</packageDescription>
+		<packageURL>http://www.enigma-forum.de/board220-tobys-wbb-ecke/</packageURL>
+		<version>1.0.0</version>
+		<date>2010-01-31</date>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author>Tobias Friebel</author>
+		<authorURL>http://www.enigma-forum.de/</authorURL>
+	</authorInformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+		<requiredpackage minversion="1.0.0">com.toby.wbb.equiz</requiredpackage>
+		<requiredpackage minversion="1.1_*">com.toby.wcf.guthaben</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+		<options>options.xml</options>
+		<guthabenprices>prices.xml</guthabenprices>
+	</instructions>
+
+</package>

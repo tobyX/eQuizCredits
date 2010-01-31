@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+
+	<category name="wbb.guthaben.log">
+		<item name="wbb.guthaben.log.equizplay"><![CDATA[Abzug für gespieltes Quiz:]]></item>
+		<item name="wbb.guthaben.log.equizwin"><![CDATA[Gutschrift für gewonnenes Quiz:]]></item>
+		<item name="wbb.guthaben.log.equizcreated"><![CDATA[Gutschrift für erstelltes Quiz:]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.equiz_guthaben_play"><![CDATA[Kosten pro gespieltem Quiz]]></item>
+		<item name="wcf.acp.option.equiz_guthaben_play.description"><![CDATA[Wenn ein Quiz begonnen wird zu spielen wird diese Summe abgezogen.]]></item>
+		<item name="wcf.acp.option.equiz_guthaben_win"><![CDATA[Gutschrift für gewonnenes Quiz]]></item>
+		<item name="wcf.acp.option.equiz_guthaben_win.description"><![CDATA[Gutschrift bei gewonnenem Quiz, wird prozentual verrechnet wenn mehrere Antworten möglich waren. Sollte höher als die Kosten sein.]]></item>
+		<item name="wcf.acp.option.equiz_guthaben_create"><![CDATA[Guthaben für Erstellung eines Quiz]]></item>
+		<item name="wcf.acp.option.equiz_guthaben_create.description"><![CDATA[Erstellt ein Benutzer ein Quiz wird ihm diese Summe gutgeschrieben.]]></item>
+	</category>
+	
+	<category name="wbb.guthaben.prices">
+		<item name="wbb.guthaben.prices.equizplay"><![CDATA[Kosten pro gespieltem Quiz]]></item>
+		<item name="wbb.guthaben.prices.equizplay.desc"><![CDATA[Dieser Betrag wird Ihnen pro gespieltem Quiz abgezogen.]]></item>
+		<item name="wbb.guthaben.prices.equizwin"><![CDATA[Gutschrift bei gewonnenen Quiz]]></item>
+		<item name="wbb.guthaben.prices.equizwin.desc"><![CDATA[Dieser Betrag wird Ihnen gutgeschrieben, wenn Sie ein Quiz gewinnen (prozentual bei mehreren möglichen Antworten).]]></item>
+		<item name="wbb.guthaben.prices.equizcreate"><![CDATA[Gutschrift für Erstellung eines Quiz]]></item>
+		<item name="wbb.guthaben.prices.equizcreate.desc"><![CDATA[Dieser Betrag wird Ihnen gutgeschrieben wenn Sie ein Quiz erstellen.]]></item>
+	</category>
+	
+</language>
